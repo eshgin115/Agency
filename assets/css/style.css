@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 724px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.navbar{
+    float: right;
+    margin-right: 6rem;
+    margin-top: 35px;
+}
+.logo a img{
+ height: 1.8rem;
+ float: left;
+ margin-left: 6rem;
+ margin-top: 2rem;
+}
+.navbar a{
+   padding: 20px 10px ;
+   margin-left: 10px;
+   color: white;
+   font-size: 18px;
+   font-weight: 300;
+}
+.bottom{
+    text-align: center;
+    padding: 16rem 6rem;
+    
+}
+.bottom h4{
+    color: white;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.bottom h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 45px;
+}
+.bottom a{
+    background-color: #ffc800;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+.services{
+    text-align: center;
+    margin-top: 75px;
+}
+.services h2{
+    color: #212529;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.services h3{
+    color: #6c756d;
+    font-size: 16px;
+    font-weight: 100;
+}
+.box{
+    text-align: center;
+    padding: 20px 50px;
+    display: flex;
+    margin-top: 50px;
+    
+}
+.box .text{
+ padding: 15px;
+
+
+}
+.text h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 100px  ;
+}
+.portfolio .about{
+    text-align: center;
+}
+.portfolio{
+    background-color: #f9f6fa;
+    margin-top: 100px;
+}
+.portfolio .about h2{
+    font-size: 40px;
+    color: #212529;
+    margin-bottom: 10px;
+}
+.portfolio .about h3{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 100;
+}
+.portfolio .cart{
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+   
+}
+.portfolio{
+    overflow: auto;
+    padding: 3rem 6rem;
+}
+.cart img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 8px 8px 0 0;
+}
+.probox .text h1{
+    font-size: 24px;
+    color: #212529;
+    margin-top: 10px;
+}
+
+.probox .text h3{
+    font-size: 16px;
+    color: #6c756d;
+    margin-top: 5px;
+    padding: 5px;
+}
+.probox .text{
+    background-color: white;
+    text-align: center;
+    padding: 5px 12px;
+    border-radius: 0 0 8px 8px;
+}
+.amazing{
+    background-color: #f9f6fa;
+}
+.team{
+    text-align: center;
+
+}
+.team h1{
+    font-size: 40px;
+    color: #212529;
+    margin-bottom: 10px;
+}
+.team p{
+    font-size: 16px;
+    color: #6c756d;
+}
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 10rem;
+    justify-content: space-between;
+}
+.people{
+    
+    width: 30%;
+ 
+}
+
+
+.people .img img{
+    
+    width:85%;
+    border-radius: 50%;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    
+}
+.people .tex h1{
+    font-size: 24px;
+    color: #212529;
+   margin-top: 15px;
+   margin-left: 30px;
+
+}
+.people .tex p{
+    font-size: 16px;
+    color: #6c756d;
+    margin-top: 5px;
+    margin-left: 55px;
+    margin-bottom: 55px;
+}
+.subtittle{
+    text-align: center;
+    width: 100%;
+    
+}
+
+.subtittle p{
+
+    font-size: 16px;
+    color: #6c756d;
+
+    padding: 0 85px;
+}
+.platforma{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 10px 6rem;
+    
+}
+.platforma .image{
+
+   width: 12rem ;
+   height: 12rem;
+   
+   margin: 0 12px
+}
+.platforma .image img{
+   margin-top: 3rem;
+   width: 70%;
+ 
+}
+.message .contact{
+    text-align: center;
+    padding-top: 100px;
+}
+.message{
+ background-color: #212529;
+ width: 100%;
+ height: 720px;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+}
+.message .contact h2{
+    font-size: 40px;
+    color: white;
+}
+.message .contact p{
+    font-size: 20px;
+    color: #6c756d;
+    margin-top: 10px;
+}
+.rigister{
+    width: 660px;
+    height: 271px;
+    float: left;
+}
+.rigister input{
+width: 500px;
+height: 45px;
+margin-top: 40px;
+margin-left: 6rem;
+border-radius: 5px;
+outline: none;
+
+
+}
+.sms{
+ margin-top: 40px;
+}
+.sms textarea{
+    width: 481px;
+    height: 211px;
+}
+
+
+ 
+ 
+
+
+
+  
+   
+  
+  
